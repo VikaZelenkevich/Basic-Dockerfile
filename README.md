@@ -1,7 +1,6 @@
 # Basic-Dockerfile
-1. Specify that I'm starting from the alpine:latest base image.
-2. Set the working directory inside the container to /root
-3. Add the ability to pass my name to the Docker image as an argument.
-4. Print “Hello, my name!” to the console.
+1. Clone the repository using git clone
+2. Run the Docker image: docker build -t basic-dockerfile .
+3. Run the Docker container: docker run basic-dockerffile
 Link:
 https://roadmap.sh/projects/basic-dockerfile
